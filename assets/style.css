@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3E5D8;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 680px;
+    height: 800px;
+    margin: auto;
+    margin-top: 125px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container img {
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
+
+.box {
+    padding: 45px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+}
+
+#description {
+    margin-top: 20px;
+    font-family: "Young Serif", serif;
+    color: hsl(30, 10%, 34%);
+    font-size: .8rem;
+}
+
+.preparation-time {
+    margin-top: 20px;
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    font-family: "Outfit", system-ui;
+}
+
+#time-parag {
+    
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#time-list {
+    margin-left: 25px;
+    line-height: 2;
+    list-style-type: disc ;
+}
+
+ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+li strong {
+    color: hsl(30, 10%, 34%);
+    font-weight: 900;
+    margin-left: 20px;
+}
+
+
