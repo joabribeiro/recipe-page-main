@@ -20,14 +20,13 @@ body {
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    
+    height: 100%;
 }
 
 .container img {
     margin: 0 auto;
     margin-top: 40px;
     border-radius: 10px;
-    
 }
 
 .box {
@@ -39,6 +38,7 @@ h1 {
     font-weight: 400;
     font-size: 40px;
     color: hsl(24, 5%, 18%);
+    margin-top: -20px;
 }
 
 #description {
@@ -56,7 +56,6 @@ h1 {
 }
 
 #time-parag {
-    
     color: hsl(332, 51%, 32%);
     font-weight: 700;
     font-size: 1.2rem;
@@ -67,16 +66,49 @@ h1 {
     margin-left: 25px;
     line-height: 2;
     list-style-type: disc ;
-}
-
-ul li::marker {
     color: hsl(332, 51%, 32%);
 }
+
 
 li strong {
     color: hsl(30, 10%, 34%);
     font-weight: 900;
     margin-left: 20px;
 }
+
+.time-description {
+    color: hsl(30, 10%, 34%);
+}
+
+
+.ingredients {
+    margin-top: 20px;
+}
+
+.ingredients h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients-list {
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 2;
+    list-style-type: disc ;
+    color: hsl(14, 45%, 36%);
+}
+
+.ingredients-list li {
+    padding-left: 15px;
+}
+
+hr {
+    border: none; /* Remove o estilo padrão */
+    border-top: 2px solid hsl(30, 18%, 87%); /* Estilo da linha */
+    margin: 25px 0; /* Espaço em cima e embaixo da linha */
+  }
+
+
+
 
 
