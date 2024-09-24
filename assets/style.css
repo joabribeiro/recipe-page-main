@@ -85,7 +85,7 @@ li strong {
     margin-top: 20px;
 }
 
-.ingredients h2 {
+h2 {
     font-family: "Young Serif", serif;
     color: hsl(14, 45%, 36%);
 }
@@ -95,11 +95,16 @@ li strong {
     margin-left: 20px;
     line-height: 2;
     list-style-type: disc ;
+}
+
+.ingredients-list li::marker {
     color: hsl(14, 45%, 36%);
+
 }
 
 .ingredients-list li {
     padding-left: 15px;
+    color: hsl(30, 10%, 34%);
 }
 
 hr {
