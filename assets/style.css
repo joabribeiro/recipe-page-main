@@ -107,7 +107,7 @@ h2 {
     color: hsl(30, 10%, 34%);
 }
 
-hr {
+.separator {
     border: none; /* Remove o estilo padrão */
     border-top: 2px solid hsl(30, 18%, 87%); /* Estilo da linha */
     margin: 25px 0; /* Espaço em cima e embaixo da linha */
@@ -135,6 +135,77 @@ hr {
 }
 
 
+#description-nutrition {
+    margin: 20px 0 20px;
+    color: hsl(30, 10%, 34%);
+
+}
+
+.nutritional-value {
+    color: hsl(30, 10%, 34%);
+}
+
+.nutritional-box {
+    display: flex;
+    gap: 250px;
+    padding-left: 29px;
+    
+
+}
+
+.nutritional-box p {
+    min-width: 60px ;
+    padding: 10px 0;
+}
 
 
+.value-nutri {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    padding: 10px 0;
 
+}
+
+hr {
+    background-color: hsl(30, 18%, 87%);
+}
+
+
+@media (max-width: 380px) {
+    body {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 100%;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .list-instructions li, .ingredients-list li {
+        font-size: 0.9rem;
+    }
+
+    .nutritional-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nutritional-box p, .nutritional-box .value-nutri {
+        font-size: 1rem;
+    }
+
+    img {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
